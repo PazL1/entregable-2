@@ -1,0 +1,62 @@
+body > header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+
+}
+
+body > header > a {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body > header > a img {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+body > header > nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+body > header > nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+body > header > form {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25rem 1rem;
+}
+
+ #btnCart {
+    display: none;
+ }
+
+
+body > header > form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > form label svg {
+    width: auto;
+    height: 100%;
+    fill: white;
+}
+
